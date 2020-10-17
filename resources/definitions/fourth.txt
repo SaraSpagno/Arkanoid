@@ -1,0 +1,13 @@
+# default values for blocks
+default height:25 width:25 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:G fill:image(block_images/red.jpg) 
+bdef symbol:r fill:image(block_images/blue.jpg) 
+bdef symbol:y fill:image(block_images/cyan.jpg) 
+bdef symbol:g fill:image(block_images/purple.jpg) 
+bdef symbol:p fill:image(block_images/yellow.jpg) 
+bdef symbol:w fill:image(block_images/green.jpg) 
+
+# spacers definitions
+sdef symbol:- width:50

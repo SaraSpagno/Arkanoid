@@ -1,0 +1,103 @@
+
+# Level 1
+# Image Background and big blocks with 3 lives
+
+START_LEVEL
+level_name:Mystery Box
+ball_velocities:0,10
+background:image(background_images/first.jpg)
+paddle_speed:10
+paddle_width:220
+block_definitions:definitions/first.txt
+blocks_start_x:40
+blocks_start_y:200
+row_height:15
+num_blocks:4
+START_BLOCKS
+-l
+-
+------------------------l
+----------------------------------------l
+--------------l
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Lego Game
+ball_velocities:45,10 -45,10 -30,10 30,10
+background:image(background_images/second.jpg)
+paddle_speed:10
+paddle_width:220
+block_definitions:definitions/second.txt
+blocks_start_x:15
+blocks_start_y:80
+row_height:35
+num_blocks:22
+START_BLOCKS
+-
+-
+lllllllllll
+zzzzzzzzzzz
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Complicated pattern
+
+START_LEVEL
+level_name:Joysticks
+ball_velocities:-30,10 0,10 30,10
+background:image(background_images/third.jpg)
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/third.txt
+blocks_start_x:60
+blocks_start_y:80
+row_height:30
+num_blocks:135
+START_BLOCKS
+-
+-
+aaaaaaaaaaa
+abbbbbbbbba
+abcccccccba
+abchhhhhcba
+abcccccccba
+abbbbbbbbba
+aaaaaaaaaaa
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 4
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name:Candy Crush
+ball_velocities:45,10
+background:image(background_images/fourth.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/fourth.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:185
+START_BLOCKS
+-
+-
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+gggggggggggggggggggggggggggggg
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+pppppppppppppppppppppppppppppp
+
+END_BLOCKS
+END_LEVEL

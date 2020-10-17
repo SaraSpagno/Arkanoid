@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:l width:50 height:50 fill:image(block_images/question.png) stroke:color(black)
+
+# spacers definitions
+sdef symbol:- width:15
